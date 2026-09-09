@@ -1,0 +1,26 @@
+.collapse {
+  width: 100%;
+  margin-bottom: 30px;
+
+  &__title {
+    width: 100%;
+    height: 54px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6060;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  &__content {
+    padding: 20px;
+    background-color: #f6f6f6;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 68px;
+
+  &-nav {
+    display: flex;
+    gap: 57px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+    a {
+      color: rgba(0, 0, 0, 1);
+      text-decoration: none;
+
+      &.active {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        text-decoration-thickness: 1px;
+      }
+    }
+  }
+}
