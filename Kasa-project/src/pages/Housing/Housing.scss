@@ -1,0 +1,26 @@
+.housing {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+    .housing-tags {
+        margin: 20px 0 24px 0;
+    }
+
+    .housing-details {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+    }
+
+    .housing-host {
+        align-items: center;
+    }
+
+    .host-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 21px;
+    }
+}

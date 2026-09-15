@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from '../../pages/Home'
 import About from '../../pages/About/about'
-import Housing from '../../pages/Housing'
+import Housing from '../../pages/Housing/housing'
 import Error from '../../pages/Error'
 
 const Router = () => {

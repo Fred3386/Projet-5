@@ -1,0 +1,26 @@
+.housing-host {
+    width: 167px;
+    height: 64px;
+    display: flex;
+    gap: 10px;
+
+    .housing-host-name {
+        width: 93px;
+        height: 52px;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 143%;
+        letter-spacing: 0%;
+        text-align: right;
+        color: rgba(255, 96, 96, 1);
+        margin: 0;
+        
+    }
+
+    img {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+    }
+}

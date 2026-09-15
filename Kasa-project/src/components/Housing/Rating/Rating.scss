@@ -1,0 +1,13 @@
+.housing-rating {
+    display: flex;
+    height: 36px;
+    gap: 4px;
+    
+    .star {
+        display: flex;
+        align-items: center;
+        height: 36px;
+        width: 36px;
+        justify-content: center;
+    }
+}
