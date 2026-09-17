@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './Collapse.scss'
-import arrowCollapse from '../../assets/arrow-collapse.svg'
+import ArrowCollapse from '../../assets/arrow-collapse.svg'
 
 const Collapse = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -14,7 +14,7 @@ const Collapse = ({ title, children }) => {
         aria-label={isOpen ? 'Fermer' : 'Ouvrir'} 
         >
             <img
-                src={arrowCollapse}
+                src={ArrowCollapse}
                 alt=""
                 className={`collapse__arrow ${isOpen ? 'collapse__arrow--open' : ''}`}
             />

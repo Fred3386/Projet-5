@@ -1,4 +1,4 @@
-import Card from '../Card'
+import Card from '../Card/card'
 import './CardList.scss'
 
 const CardList = ({ logements }) => {

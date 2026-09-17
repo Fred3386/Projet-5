@@ -1,6 +1,6 @@
 import { useState } from "react";
-import arrowLeft from "../../../assets/arrow-gallery-left.svg";
-import arrowRight from "../../../assets/arrow-gallery-right.svg";
+import ArrowLeft from "../../../assets/arrow-gallery-left.svg";
+import ArrowRight from "../../../assets/arrow-gallery-right.svg";
 import "./Gallery.scss";
 
 function Gallery({ pictures }) {
@@ -23,7 +23,7 @@ function Gallery({ pictures }) {
                     )
                 }
             >
-                <img src={arrowLeft} alt="Image précédente" />
+                <img src={ArrowLeft} alt="Image précédente" />
             </button>
             <button
                 onClick={() =>
@@ -34,7 +34,7 @@ function Gallery({ pictures }) {
                     )
                 }
             >
-                <img src={arrowRight} alt="Image suivante" />
+                <img src={ArrowRight} alt="Image suivante" />
             </button>
             <p>
                 {currentImage + 1}/{pictures.length}
