@@ -12,3 +12,11 @@
     white-space: nowrap;
     text-align: left;
 }
+
+@media (max-width: 768px) { 
+    .housing-location {
+        font-size: 14px;
+        line-height: 143%;
+        height: 100%;
+    }
+}

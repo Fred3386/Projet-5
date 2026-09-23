@@ -49,3 +49,27 @@
         right: 20px;
     }
 }
+
+@media (max-width: 768px) {
+
+    .housing-gallery {
+        width: 100%;
+        height: 255px;
+        border-radius: 10px;
+
+        button img {
+            width: 11.67px;
+            height: 19.8px;
+        }
+
+        p {
+            display: none;
+        }
+    }
+
+    
+
+
+
+    
+}

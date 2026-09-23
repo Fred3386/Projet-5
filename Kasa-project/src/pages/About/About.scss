@@ -3,5 +3,12 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 28px;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        width: 100%;
+        gap: 20px;
+    }
 }

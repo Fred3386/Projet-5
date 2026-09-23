@@ -19,3 +19,17 @@ footer {
     color: rgba(255, 255, 255, 1);
   }
 }
+
+@media (max-width: 768px) {
+    footer {
+        height: 209px;
+        padding: 66px 0 58px 0;
+        gap: 20px;
+
+        p {
+            width: 133px;
+            font-size: 12px;
+            line-height: 143%;
+        }
+    }
+}

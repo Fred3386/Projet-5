@@ -24,3 +24,26 @@
         border-radius: 50%;
     }
 }
+
+@media (max-width: 768px) {
+    .housing-host {
+        height: 33px;
+        width: 135px;
+        gap: 10px;
+        justify-content: flex-end;
+        margin-bottom: 13px;
+        margin-top: 16px;
+        
+        .housing-host-name {
+            width: 60px;
+            height: auto;
+            font-size: 12px;
+            line-height: 143%;
+        }
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+}

@@ -20,7 +20,6 @@
     }
 
     p {
-        
         font-family: Montserrat;
         font-weight: 500;
         font-size: 36px;
@@ -37,5 +36,37 @@
         line-height: 143%;
         text-decoration: underline;
         text-underline-offset: 2px;
+    }
+
+    .break-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .error {
+        gap: 113px;
+        margin-top: 20px;
+
+        &-title {
+            width: 100%;
+            height: auto;
+            font-size: 96px;
+            margin-top: 113px;
+        }
+
+        .break-mobile {
+            display: block;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        a {
+            margin-bottom: 113px;
+            font-size: 14px;
+        }
     }
 }

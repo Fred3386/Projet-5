@@ -1,8 +1,7 @@
-
-
 .housing-tags {
     display: flex;
     gap: 10px;
+    margin: 20px 0 24px 0;
 
     .housing-tag {
         min-width: 115px;
@@ -21,5 +20,21 @@
         text-align: center;
         color: #fff;
         white-space: nowrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .housing-tags {
+        margin-top: 5px;
+        gap: 10px;
+        margin-bottom: 0;
+
+        .housing-tag {
+            min-width: 80px;
+            height: 20px;
+            padding: 3px 8px;
+            font-size: 10px;
+            border-radius: 5px;
+        }
     }
 }

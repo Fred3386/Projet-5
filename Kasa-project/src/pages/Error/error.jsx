@@ -6,7 +6,10 @@ const Error = () => {
   return (
     <main className="error">
       <h1 className="error-title">404</h1>
-      <p>Oups! La page que vous demandez n'existe pas.</p>
+      <p>
+        Oups! La page que 
+        <br className="break-mobile" />
+        {''} vous demandez n'existe pas.</p>
       <NavLink to="/">Retourner sur la page d'accueil</NavLink>
     </main>
   )

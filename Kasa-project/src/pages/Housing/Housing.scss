@@ -3,10 +3,6 @@
     flex-direction: column;
     margin-top: 50px;
 
-    .housing-tags {
-        margin: 20px 0 24px 0;
-    }
-
     .housing-details {
         display: flex;
         justify-content: space-between;
@@ -26,7 +22,41 @@
 
     .housing-collapse {
         display: flex;
-        
         gap: 76px;
     }
+
+    .equipment-list {
+        list-style: none;
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .housing {
+        margin-top: 27px;
+
+        .housing-details {
+            flex-direction: column;
+            margin-top: 15px;
+        }
+
+        .housing-collapse {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .host-info {
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+        
+        .housing-info {
+            flex-direction: column;
+            display: flex;
+            gap: 5px;
+        }
+    }
+    
 }
